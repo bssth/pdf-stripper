@@ -33,10 +33,6 @@ func GetRuleSet(id int) []*Rule {
 		return Set1
 	case 2:
 		return Set2
-	case 11:
-		return SetChart1
-	case 12:
-		return SetChart2
 	}
 
 	return nil
